@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+    color: black;
+    width: 180px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card p{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.card span{
+    font-size: 30px;
+}
+
+.btn_main{
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px){
+    .card{
+        width: 130px;
+        height: 200px;
+    }
+}
